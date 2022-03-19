@@ -6,7 +6,7 @@
         
     <Grid Style="{DynamicResource GridStyle}">
         <Button Clicked="Button_Clicked" Text="Recepeto1"/>
-       
+        
 
 
     </Grid>
