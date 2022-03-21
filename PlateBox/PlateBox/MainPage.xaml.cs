@@ -11,11 +11,21 @@ namespace PlateBox
 {
     public partial class MainPage : ContentPage
     {
-        private int counter = 0;
+
         public MainPage()
         {
             InitializeComponent();
+            Task.Run(async () =>
+            {
+                this.BackgroundColor = Color.Black;
+
+                await Task.Delay(3000);
+
+                this.BackgroundColor = Color.White;
+
+            }).Wait();
         }
+
 
         private  void Button_Clicked(object sender, EventArgs e)
         {

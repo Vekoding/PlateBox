@@ -2,11 +2,34 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PlateBox.MainPage">
-    
-        
-    <Grid Style="{DynamicResource GridStyle}">
-        <Button Clicked="Button_Clicked" Text="Recepeto1"/>
-        
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0,1">
+                <GradientStop Color="#33808a"
+                          Offset="0.1" />
+                <GradientStop Color="DarkSeaGreen"
+                          Offset="1.0" />
+            </LinearGradientBrush>
+        </Grid.Background>
+        <BoxView WidthRequest="300" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="Black" HeightRequest="3" VerticalOptions="End" HorizontalOptions="Center"/>
+        <Label FontAttributes="Italic" HorizontalTextAlignment="Center" TextColor="Black" Grid.Row="0" Grid.Column="0"  Text="PlateBox" HorizontalOptions="Center" FontSize="30"></Label>
+        <Switch Grid.Column="1" HorizontalOptions="Center" Grid.Row="0"></Switch>
+        <Button  CornerRadius="30"   Opacity="0.5" BackgroundColor="#de8a8a" TextColor="Black" BorderWidth="2"  BorderColor="Black" Margin="10, 15" WidthRequest="20" Grid.Row="2" Grid.Column="0" Clicked="Button_Clicked" Text="Breakfast"/>
+        <Button CornerRadius="30"  Opacity="0.5" BackgroundColor="Pink" TextColor="Black" BorderWidth="2" BorderColor="Black" Margin="10, 15" WidthRequest="20" Grid.Row="2" Grid.Column="1"  Clicked="Button_Clicked" Text="Lunch"/>
+        <Button CornerRadius="30"  Opacity="0.5" BackgroundColor="Pink" TextColor="Black" BorderWidth="2" BorderColor="Black" Margin="10, 15" WidthRequest="20" Grid.Row="3" Grid.Column="0"  Clicked="Button_Clicked" Text="Snack"/>
+        <Button CornerRadius="30"  Opacity="0.4" BackgroundColor="#de8a8a " TextColor="Black" BorderWidth="2" BorderColor="Black" Margin="10, 15" Grid.Row="3" Grid.Column="1"  Clicked="Button_Clicked" Text="Dinner"/>
+
 
 
     </Grid>

@@ -4,5 +4,6 @@
              x:Class="PlateBox.App">
     <Application.Resources>
         <ResourceDictionary Source="Resources/Dark.xaml"/>
+        
     </Application.Resources>
 </Application>
