@@ -1,0 +1,343 @@
+{
+  "recipe": [
+    {
+      "id": "63eac511-4450-402d-aad1-3d83ce512a0d",
+      "name": "Losos na roštilju sa prelivom od tri za?ina",
+      "steps": [
+        {
+          "text": "Napravite preliv tako što sitno iseckajte prešun, dodajte ostale sastojke, dobro izmešajte i ostavite da odstoji bar pola sata kako bi se ukusi sjedinili."
+        },
+        {
+          "text": "Filetu lososa skinite kožu, i isecite na komade, na primer, kao trouglovi i pokapajte maslinovim uljem."
+        },
+        {
+          "text": "Na vrelom roštilj tiganju ili roštilju ispecite losos 3 minuta sa jedne strane i 2 minuta sa druge strane, dope?i ?e se još stajanjem koji minut pre služenja. Kad skinete losos sa roštilja prelijte pripremljenim prelivom."
+        }
+      ],
+      "backgroundImage": "background1.png",
+      "thumbnailImage": "thumbnail1.png",
+      "ingredients": [
+        {
+          "name": "fileta lososa",
+          "unit": "kg",
+          "amount": "1"
+        },
+        {
+          "name": "veze peršuna",
+          "amount": "1/2"
+        },
+        {
+          "name": "kaši?ice suve nane (mente)",
+          "amount": "1/2"
+        },
+        {
+          "name": "kaši?ice origana",
+          "amount": "1/2"
+        },
+        {
+          "name": "kašika kapra",
+          "amount": "1"
+        },
+        {
+          "name": "limuna rendana kora i sok",
+          "amount": "1/2"
+
+        },
+        {
+          "name": "maslinovog ulja",
+          "unit": "ml",
+          "amount": "50-70"
+        },
+        {
+          "name": "so i biber"
+        }
+      ],
+      "shortDescription": "Za ljubitelje lososa jednostavno, brzo i veoma ukusno, sta je više potrebno.",
+      "longDescription": "Za ljubitelje lososa jednostavno, brzo i veoma ukusno, sta je više potrebno.",
+      "type": "Lunch"
+    },
+    {
+      "id": "6a5b3a53-d8ed-4a8f-bf40-940a09adf016",
+      "name": "Ramstek sa prelivom od soja sosa",
+      "steps": [
+        {
+          "text": "Ramstek posuti sa malo maslinovog ulja, staviti u najlon kesu i lagano izlupati tu?kom preko kese kako ne bi oštetili strukturu mesa. Ostaviti u frižideru preko no?i, a može i koji dan više. Ako nemate toliko vremena uradite to isto i ostavite koji sat na sobnoj temperaturi."
+        },
+        {
+          "text": "Za preliv od soja sosa izrendati u posudi ?ešalj belog luka, koren djumbira, ljutu papri?icu i dodati soja sos, maslinovo ulje, so, biber i sok od limuna."
+        },
+        {
+          "text": "Obariti kratko blitvu."
+        },
+        {
+          "text": "Ramstek koji je na sobnoj temperaturi pecite na vrelom roštilju ili teflon tiganju (ramstek debljine 2-3 cm.) oko 2 minuta s jedne strane i 2 minuta s druge strane i ostavite da odstoji koji minut kako bi ostao so?an unutra. Ovo važi za srednje pe?eni ramstek."
+        },
+        {
+          "text": "Na veliki tanjir za serviranje staviti ocedjeno bareno povr?e, preko ramstek nase?en koso na komade i preliti ga pripremljenim prelivom sa soja sosom."
+        }
+      ],
+      "backgroundImage": "background2.png",
+      "thumbnailImage": "thumbnail2.png",
+      "ingredients": [
+        {
+          "name": "ramsteka",
+          "unit": "gr",
+          "amount": "400-500"
+        },
+        {
+          "name": "malo maslinovog ulja"
+        },
+        {
+          "name": "velike veze blitve ili nekog drugog sli?nog povr?a",
+          "amount": "2"
+        },
+        {
+          "name": "?en belog luka",
+          "amount": "1"
+        },
+        {
+          "name": "dužine koren svežeg ?umbira",
+          "unit": "cm",
+          "amount": "1.5"
+        },
+        {
+          "name": "male sveže ljute papri?ice",
+          "amount": "1/2"
+        },
+        {
+          "name": "kašika soja sosa",
+          "amount": "5"
+        },
+        {
+          "name": "kašike maslinovog ulja",
+          "amount": "2"
+        },
+        {
+          "name": "sok 1/2 limuna"
+        },
+        {
+          "name": "so i biber"
+        }
+      ],
+      "shortDescription": "Za sve one ljubitelje ramsteka, u koje spadam ja i moja porodica, evo jednog recepta sa soja sosom, djumbirom i ostalim djakonijama koje mu daju zaista izuzetan ukus.",
+      "longDescription": "Za sve one ljubitelje ramsteka, u koje spadam ja i moja porodica, evo jednog recepta sa soja sosom, djumbirom i ostalim djakonijama koje mu daju zaista izuzetan ukus.",
+      "type": "Dinner"
+    },
+    {
+      "id": "9ce41e7a-beef-4125-9717-167e92a235b0",
+      "name": "Vegan špagete",
+      "steps": [
+        {
+          "text": "Sitno isecite luk i prodinstajte u tiganju na ulju dok ne porumeni."
+        },
+        {
+          "text": "Za to vreme u šolju sa sojinim ljuspicama dodajte vode do vrha i ostavite da se hidrira."
+        },
+        {
+          "text": "Sklonite sa vatre i dodajte kašiku mlevene paprike, promešajte i ostavite par minuta. Vratite tiganj na vatru, dodajte šolju vode i dinstajte još tri do pet minuta."
+        },
+        {
+          "text": "Sipajte hidriranu soju u tiganj, dodajte biber, nalijte vode i ostavite oko 20 minuta da se kr?ka, uz dodavanje vode ukoliko ispari i povremeno mešanje."
+        },
+        {
+          "text": "Dodajte pola šolje paradajz soka, fino naseckan beli luk ili beli luk u prahu, promešajte i kuvajte još pet minuta. Smesa ne treba da ima previše te?nosti kada je gotova."
+        },
+        {
+          "text": "U odvojenom loncu pripremite sos za špagete prema uputstvu sa kesice. Nakon što provri, dodajte smesu koju ste pripremili u tiganju i ostavite da se kr?ka još pet minuta na srednjoj vatri."
+        },
+        {
+          "text": "Špagete skuvajte, procedite i isperite mlakom vodom."
+        }
+      ],
+      "backgroundImage": "background3.png",
+      "thumbnailImage": "thumbnail3.png",
+      "ingredients": [
+        {
+          "name": "A",
+          "unit": "A",
+          "amount": "A"
+        },
+        {
+          "name": "glavica crnog luka",
+          "amount": "1"
+        },
+        {
+          "name": "šolja sojinih ljuspica"
+        },
+        {
+          "name": "vegeta"
+        },
+        {
+          "name": "nekoliko kašike ulja"
+        },
+        {
+          "name": "pola šolje paradajz soka"
+        },
+        {
+          "name": "kašike slatke paprike",
+          "amount": "2"
+        },
+        {
+          "name": "kesica sosa za špagete"
+        },
+        {
+          "name": "pola kaši?ice bibera"
+        },
+        {
+          "name": "špagete ili makaroni bez jaja"
+        },
+        {
+          "name": "komad veganskog ka?kavalja"
+        },
+        {
+          "name": "?en belog luka ili beli luk u prahu"
+        }
+      ],
+      "shortDescription": "Evo jednog brzog i jednostavnog recepta koji dokazuje da priprema veganskih jela može biti jeftina, veoma jednostavna, bez komplikovanih i skupih sastojaka, a da ukusom može parirati bilo kom drugom jelu.",
+      "longDescription": "Evo jednog brzog i jednostavnog recepta koji dokazuje da priprema veganskih jela može biti jeftina, veoma jednostavna, bez komplikovanih i skupih sastojaka, a da ukusom može parirati bilo kom drugom jelu.",
+      "type": "Lunch"
+    },
+    {
+      "id": "e4218673-904c-4962-baee-fc47b095ecb0",
+      "name": "Vo?ni doru?ak sa kiselim mlekom",
+      "steps": [
+        {
+          "text": "Oljuštiti i na komade ise?i kivi, pa ga staviti u šerpu. Sipati 50 ml vode i 20 gr še?era i kuvati 5 minuta od kada smesa provri. Štapnim mikserom izblendirati smesu."
+        },
+        {
+          "text": "U malo vode rastvoriti 2 kaši?ice gustina, pa tu smesu dodati izmiksanom kiviju. Vratiti ovu smesu još malo na ringlu i kuvati dok smesa ne po?ne da se steže. Smesu rasporediti u 4 ?aše."
+        },
+        {
+          "text": "Istopiti 3 kašike žutog še?era kao karamel i u to dodati pahuljice. Promešati i preru?iti na ravan i tanak pleh da se smesa ohladi."
+        },
+        {
+          "text": "Kiselo mleko dobro izmešati sa medom. Rasporediti u ?aše i staviti do služenja u frižider. Pred samo služenje ukrasiti i krokantima od pahuljica."
+        }
+      ],
+      "backgroundImage": "background4.png",
+      "thumbnailImage": "thumbnail4.png",
+      "ingredients": [
+        {
+          "name": "vode",
+          "unit": "ml",
+          "amount": "50"
+        },
+        {
+          "name": "kaši?ice gustina",
+          "amount": "2"
+        },
+        {
+          "name": "ovsenih ili je?menih pahuljica",
+          "unit": "gr",
+          "amount": "100"
+        },
+        {
+          "name": "kašike žutog še?era",
+          "amount": "3"
+        },
+        {
+          "name": "kivija",
+          "unit": "gr",
+          "amount": "250"
+        },
+        {
+          "name": "puna kašika meda",
+          "amount": "1"
+        },
+        {
+          "name": "kiselog mleka",
+          "amount": "450",
+          "unit": "ml"
+        },
+        {
+          "name": "še?era",
+          "amount": "20",
+          "unit": "gr"
+        }
+      ],
+      "shortDescription": "samo ime govori",
+      "longDescription": "samo ime govori",
+      "type": "Breakfast"
+    },
+    {
+      "id": "801d4b9c-5e85-4d08-ab40-7044fc33bca9",
+      "name": "Poga?ice/grickalice",
+      "steps": [
+        {
+          "text": "U zdjelu za miješanje dodate toplo mlijeko ,mineralnu vodu še?er i kvasac/mlijeko možete malo više zagrijati tako kad dodate mineralnu da temperatura bude optimalna/miješate rukom da se sve otopi ostavite stajati minutu -dvije .Dodate ulje ,promiješate pa postepeno dodate brašno i sol . izmiješate sve u fino tijesto,stavite na lagano pobrašnjeni radni stol pa nastavite miješati da tijesto bude fino mekano i da se ne lijep,dodate toliko brašna koliko je potrebno. ,pokrijte obi?nom kesom ili ako ima posuda poklopac pa ostavite stajati 45 min. na toplom mjestu.Pripremite meso tako da sve sastojke zamiješale zajedno ,isprobate slanost i za?injenost tako da komadi? mesa ispe?ete na suhoj tavi ako ste zadovoljni ostavite stajati dok se tijesto ne digne."
+        },
+        {
+          "image": "step5_1.png"
+        },
+        {
+          "text": "Razvaljate tijesto na tanko pa vadite krugove/ja sam ovo radila kalupom za krafne jer sam htjela manje a vi možete po želji manje ili ve?e komade.Zarežete krug na sredini na par mjesta .Stavite u sredinu komadi? fino oblikovanog mesa.",
+          "image": "step5_2.png"
+        },
+        {
+          "text": "Krajeve tijesta spojite.Na lim stavite tijesto sa spojem prema dolje .Lagano raširite rupe da se odvoje .Premažete peciva razmucenim žumanjkom ,pospite sezamom. Pecite u zagrijanoj pe?nici 200C/25 min ili dok ne dobiju finu boju i po?nu se odvajati od papira."
+        },
+        {
+          "image": "step5_3.png"
+        },
+        {
+          "text": "Servirate toplo ili hladno.",
+          "image": "step5_4.png"
+        }
+      ],
+      "backgroundImage": "background5.png",
+      "thumbnailImage": "thumbnail5.png",
+      "ingredients": [
+        {
+          "name": "brašna",
+          "unit": "g",
+          "amount": "500-550"
+        },
+        {
+          "name": "mlakog mleka",
+          "unit": "ml",
+          "amount": "250"
+        },
+        {
+          "name": "kašika kvasca",
+          "amount": "1"
+        },
+        {
+          "name": "mineralne vode",
+          "unit": "ml",
+          "amount": "200"
+        },
+        {
+          "name": "kafene kašike še?era u prahu",
+          "amount": "2"
+        },
+        {
+          "name": "suncokretovog ulja",
+          "unit": "ml",
+          "amount": "170"
+        },
+        {
+          "name": "kafena kašika soli",
+          "amount": "1"
+        },
+        {
+          "name": "mlevene junetine",
+          "unit": "g",
+          "amount": "200"
+        },
+        {
+          "name": "mleveni biber"
+        },
+        {
+          "name": "naribani ?en belog luka",
+          "amount": "1"
+        },
+        {
+          "name": "na vrh noža mlevenog kumina"
+        }
+      ],
+      "shortDescription": "Fine grickalice punjene mljevenim mesom. Ako ne volite sa mljevenim mesom možete koristi sir ,feta sir ,špinat i sl.",
+      "longDescription": "Fine grickalice punjene mljevenim mesom. Ako ne volite sa mljevenim mesom možete koristi sir ,feta sir ,špinat i sl.",
+      "type": "Snack"
+    }
+  ]
+}
