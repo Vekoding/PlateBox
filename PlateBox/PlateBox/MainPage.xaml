@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlateBox.MainPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundImage="PlateBox_2.png"
+             >
+    <ContentPage.Resources>
+
+        
+
+    </ContentPage.Resources>
+    <Grid 
+         >
+        <Grid.RowDefinitions
+            BackgroundImage="PlateBox_2.png">
+            <RowDefinition Height="auto"/>
+            
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            BackgroundImage="PlateBox_2.png",
+            
+        </Grid.Background>
+        <BoxView WidthRequest="300" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="Black" HeightRequest="3" VerticalOptions="End" HorizontalOptions="Center"/>
+        <Label FontAttributes="Italic" HorizontalTextAlignment= "Center" TextColor="Black" Grid.Row="0" Grid.Column="0"  Text="PlateBox" HorizontalOptions="Center" FontSize="30"></Label>
+        <ImageButton x:Name="Breakfast"  Aspect="Fill" HorizontalOptions="Fill"  Source="Breakfast.png"  Clicked="Breakfast_Clicked"  CornerRadius="30" Opacity="0.5"  BorderWidth="2" BorderColor="Black"  Margin="10, 15" WidthRequest="20" Grid.Row="2" Grid.Column="0"  />
+        <ImageButton x:Name="Lunch" Aspect="Fill" Source="lunch.png" Clicked="Lunch_Clicked" CornerRadius="30"  Opacity="0.5"  BorderWidth="2" BorderColor="Black" Margin="10, 15" WidthRequest="20" Grid.Row="2" Grid.Column="1"  />
+        <ImageButton x:Name="Snack" Source="lunch.png" Clicked="Snack_Clicked" CornerRadius="30"  Opacity="0.5"  BorderWidth="2" BorderColor="Black" Margin="10, 15" WidthRequest="20" Grid.Row="3" Grid.Column="0"   />
+        <ImageButton x:Name="Dinner"  Aspect="AspectFit" HorizontalOptions="Fill"  Source="snack.png" Clicked="Dinner_Clicked" CornerRadius="30"  Opacity="0.4" BorderWidth="2" BorderColor="Black" Margin="10, 15" Grid.Row="3" Grid.Column="1"/>
+    </Grid>
+
+</ContentPage>
