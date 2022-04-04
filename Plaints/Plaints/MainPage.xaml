@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:viewmodels="clr-namespace:Plaints.ViewModels"
+	xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    x:DataType="viewmodels:MainViewModel"
+    x:Class="Plaints.MainPage">
+        <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="ButtonBackgroundColor">#e3f1eeff</Color>
+            <Style TargetType="Label" x:Key="HeaderFontLight">
+                <Setter Property="FontFamily" Value="LoraRegular" />
+                <Setter Property="FontSize" Value="28" />
+                <Setter Property="TextColor" Value="#181d2a" />
+            </Style>
+            <Style TargetType="Label" x:Key="HeaderFontMedium">
+                <Setter Property="FontFamily" Value="LoraMedium" />
+                <Setter Property="FontSize" Value="28" />
+                <Setter Property="TextColor" Value="#181d2a" />
+            </Style>
+            <Style x:Key="ButtonStyle" TargetType="ImageButton">
+                <Setter Property="BackgroundColor" Value="#e3f1eeff" />
+                <Setter Property="CornerRadius" Value="10" />
+            </Style>
+            <Style x:Key="ImageButtonStyle" TargetType="ImageButton">
+                <Setter Property="BackgroundColor" Value="LightGray" />
+                <Setter Property="CornerRadius" Value="10" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid Padding="20" ColumnSpacing="10" RowSpacing="20" BackgroundColor="#EA6036">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="260" />
+            <RowDefinition Height="260" />
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="50"/>
+        </Grid.ColumnDefinitions>
+
+        <ImageButton Grid.Row="1"
+                     Grid.Column="3"
+                     Source="favorite_empty"
+                     Style="{StaticResource ButtonStyle}"
+                     BackgroundColor="#EA6036"
+                     Padding="10" />
+        
+        <StackLayout Grid.Row="1" Grid.ColumnSpan="3" Grid.Column="0">
+            <Label Style="{StaticResource HeaderFontLight}" Text="PlateBox" FontSize="55"/>
+        </StackLayout>
+        
+        <BoxView Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3"
+                 BackgroundColor="{StaticResource ButtonBackgroundColor}"
+                 CornerRadius="10" />
+        
+        <ImageButton Grid.Row="3" Grid.Column="0"
+                     BackgroundColor="Transparent"
+                     HorizontalOptions="Start"
+                     Style="{StaticResource ButtonStyle}"
+                     Padding="14"
+                     Source="search_icon" />
+        
+        <Entry Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="1" Margin="0,0,20,0" HorizontalOptions="Fill"
+               Placeholder="Search" />
+
+        <ImageButton
+			Grid.Row="3" Grid.Column="3" Style="{StaticResource ButtonStyle}"
+            Padding="14"
+            Source="settings_icon" />
+
+        <ImageButton x:Name="Breakfast"  
+                     Command="{Binding NavigateToRecipeListCommand}"
+                     CommandParameter="Breakfast"
+                     Grid.Row="4" 
+                     Grid.ColumnSpan="2"
+                     Source="pancake"
+                     Style="{StaticResource ButtonStyle}"/>
+        <Label Grid.Row="4" 
+               Grid.ColumnSpan="2" 
+               Grid.Column="0"
+               Text="Breakfast" 
+               FontSize="30"
+               InputTransparent="True"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Start"/>
+
+        <ImageButton x:Name="Lunch" 
+                     Command="{Binding NavigateToRecipeListCommand}"
+                     CommandParameter="Lunch"
+                     Grid.Row="4" 
+                     Grid.ColumnSpan="2"
+                     Grid.Column="2"
+                     Source="lasagna"
+                     Style="{StaticResource ButtonStyle}"/>
+        <Label Grid.Row="4" 
+               Grid.ColumnSpan="2" 
+               Grid.Column="2"
+               Text="Lunch" 
+               FontSize="30" 
+               InputTransparent="True"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Start"/>
+        
+        <ImageButton x:Name="Snack" 
+                     Command="{Binding NavigateToRecipeListCommand}"
+                     CommandParameter="Snack"
+                     Grid.Row="5" 
+                     Grid.ColumnSpan="2"
+                     Source="guacamole"
+                     Style="{StaticResource ButtonStyle}"/>
+        <Label Grid.Row="5" 
+               Grid.ColumnSpan="2" 
+               Grid.Column="0"
+               Text="Snack" 
+               FontSize="30" 
+               InputTransparent="True"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Start"/>
+        
+        <ImageButton x:Name="Dinner" 
+                     Command="{Binding NavigateToRecipeListCommand}"
+                     CommandParameter="Dinner"
+                     Grid.Row="5" 
+                     Grid.ColumnSpan="2"
+                     Grid.Column="2"
+                     Source="wrap"
+                     Style="{StaticResource ButtonStyle}"/>
+        <Label Grid.Row="5" 
+               Grid.ColumnSpan="2"
+               Grid.Column="2"
+               Text="Dinner" 
+               FontSize="30" 
+               InputTransparent="True"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Start"/>
+    </Grid>
+</ContentPage>
+
+    
